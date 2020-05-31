@@ -28,7 +28,12 @@ const MVP = ({ theme }) => {
           </div>
         </div>
         <div className="h-16 lg:block hidden">
-          <Button title="Join MVP Program"></Button>
+          <Button
+            onClick={() =>
+              document.getElementById("contact_form").scrollIntoView()
+            }
+            title="Join MVP Program"
+          ></Button>
         </div>
       </div>
 
@@ -93,7 +98,12 @@ const MVP = ({ theme }) => {
       </div>
 
       <div className="h-16 lg:hidden block">
-        <button className="rounded-md bg-secondary text-white py-5 px-10 text-base font-bold box-border w-full">
+        <button
+          onClick={() =>
+            document.getElementById("contact_form").scrollIntoView()
+          }
+          className="rounded-md bg-secondary text-white py-5 px-10 text-base font-bold box-border w-full"
+        >
           Join MVP Program
         </button>
       </div>

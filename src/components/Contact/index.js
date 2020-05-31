@@ -4,7 +4,7 @@ import blueLine from "../../assets/Icons/blueLine.png";
 const Contact = ({ theme }) => {
   return (
     <>
-      <div className="lg:p-12 text-primary flex p-4 lg:flex-row flex-col">
+      <div className="lg:p-12 text-primary flex p-4 lg:flex-row flex-col" id="contact_form">
         <div className="lg:w-7/12 w-full">
           <img src={blueLine} alt="Ideas to realty" className="mb-6" />
           <div className="text-5xl font-bold leading-none lg:w-9/12">
@@ -15,7 +15,8 @@ const Contact = ({ theme }) => {
           </div>
         </div>
         <div className="lg:w-5/12 w-full flex flex-col  items-end">
-          <form name="contact" method="POST" data-netlify="true" netlify>
+          <form name="contact" method="post">
+            <input type="hidden" name="form-name" value="contact" />
             <input
               name="name"
               class="lg:w-10/12 w-full bg-gray1 text-primary rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
@@ -35,10 +36,10 @@ const Contact = ({ theme }) => {
               type="email"
             />
             <textarea
-              name="Message"
+              name="message"
               class="lg:w-10/12 w-full bg-gray1 rounded border border-gray-400 focus:outline-none h-32 focus:border-indigo-500 text-base px-4 py-2 mb-4 resize-none"
               placeholder="Message"
-            ></textarea>
+            />
             <div className="lg:w-10/12 w-full">
               <button
                 type="submit"
