@@ -1,7 +1,7 @@
 import React from "react";
 import Toggle from "../Toggle";
-import logodark from "../../assets/dark/logo.png";
-import logolight from "../../assets/light/logo.png";
+import logodark from "../../assets/dark/logo.svg";
+import logolight from "../../assets/light/logo.svg";
 import sun from "../../assets/Icons/sun.png";
 import moon from "../../assets/Icons/moon.png";
 

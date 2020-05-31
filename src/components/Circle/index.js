@@ -1,14 +1,14 @@
 import React from "react";
-import i2Light from "../../assets/light/i2.png";
-import i2Dark from "../../assets/dark/i2.png";
-import greenLine from "../../assets/Icons/greenLine.png";
-import bithyve from "../../assets/Icons/bithyve.png";
+import i2Light from "../../assets/light/i2.svg";
+import i2Dark from "../../assets/dark/i2.svg";
+import greenLine from "../../assets/Icons/greenLine.svg";
+import bithyve from "../../assets/Icons/bithyve.svg";
 import bithyveLight from "../../assets/Icons/bithyve.svg";
-import msb from "../../assets/Icons/msb.png";
-import aws from "../../assets/Icons/aws.png";
-import kln from "../../assets/Icons/kln.png";
+import msb from "../../assets/Icons/msb.svg";
+import aws from "../../assets/Icons/aws.svg";
+import kln from "../../assets/Icons/kln.svg";
 import klnLight from "../../assets/Icons/kln.svg";
-import playa from "../../assets/Icons/playa.png";
+import playa from "../../assets/Icons/playa.svg";
 
 const Circle = ({ theme }) => {
   return (

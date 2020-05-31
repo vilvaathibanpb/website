@@ -1,10 +1,10 @@
 import React from "react";
-import shortLogoLight from "../../assets/light/shortLogo.png";
-import mediumLight from "../../assets/light/medium.png";
-import mediumDark from "../../assets/dark/medium.png";
-import linkedinLight from "../../assets/light/linkedin.png";
-import linkedinDark from "../../assets/dark/linkedin.png";
-import shortLogoDark from "../../assets/dark/shortLogo.png";
+import shortLogoLight from "../../assets/light/shortlogo.svg";
+import mediumLight from "../../assets/light/medium.svg";
+import mediumDark from "../../assets/dark/medium.svg";
+import linkedinLight from "../../assets/light/linkedin.svg";
+import linkedinDark from "../../assets/dark/linkedin.svg";
+import shortLogoDark from "../../assets/dark/shortlogo.svg";
 
 const Footer = ({ theme }) => {
   return (
