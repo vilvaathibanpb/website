@@ -1,13 +1,13 @@
 import React from "react";
-import yellowLine from "../../assets/Icons/yellowLine.png";
-import discoverLight from "../../assets/light/discover.png";
-import executeLight from "../../assets/light/execute.png";
-import strategyLight from "../../assets/light/strategy.png";
-import launchLight from "../../assets/light/launch.png";
-import discoverDark from "../../assets/dark/discover.png";
-import executeDark from "../../assets/dark/execute.png";
-import strategyDark from "../../assets/dark/strategy.png";
-import launchDark from "../../assets/dark/launch.png";
+import yellowLine from "../../assets/Icons/yellowline.svg";
+import discoverLight from "../../assets/light/discover.svg";
+import executeLight from "../../assets/light/execute.svg";
+import strategyLight from "../../assets/light/strategy.svg";
+import launchLight from "../../assets/light/launch.svg";
+import discoverDark from "../../assets/dark/discover.svg";
+import executeDark from "../../assets/dark/execute.svg";
+import strategyDark from "../../assets/dark/strategy.svg";
+import launchDark from "../../assets/dark/launch.svg";
 
 import Button from "../Button";
 

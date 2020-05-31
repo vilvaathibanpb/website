@@ -1,6 +1,6 @@
 import React from 'react';
-import imageLight from '../../assets/light/i1.png'
-import imageDark from '../../assets/dark/i1.png'
+import imageLight from '../../assets/light/i1.svg'
+import imageDark from '../../assets/dark/i1.svg'
 import Button from '../Button';
 
 const Home = ({theme}) => {

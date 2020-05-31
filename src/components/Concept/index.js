@@ -1,13 +1,13 @@
 import React from "react";
-import bulbLight from "../../assets/light/bulb.png";
-import blueLine from "../../assets/Icons/blueLine.png";
-import designLight from "../../assets/light/design.png";
-import developLight from "../../assets/light/develop.png";
-import binoLight from "../../assets/light/binocular.png";
-import bulbDark from "../../assets/dark/bulb.png";
-import designDark from "../../assets/dark/design.png";
-import developDark from "../../assets/dark/develop.png";
-import binoDark from "../../assets/dark/binocular.png";
+import bulbLight from "../../assets/light/bulb.svg";
+import blueLine from "../../assets/Icons/blueLine.svg";
+import designLight from "../../assets/light/design.svg";
+import developLight from "../../assets/light/develop.svg";
+import binoLight from "../../assets/light/binocular.svg";
+import bulbDark from "../../assets/dark/bulb.svg";
+import designDark from "../../assets/dark/design.svg";
+import developDark from "../../assets/dark/develop.svg";
+import binoDark from "../../assets/dark/binocular.svg";
 
 const Concept = ({ theme }) => {
   return (
