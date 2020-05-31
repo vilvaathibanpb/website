@@ -15,30 +15,39 @@ const Contact = ({ theme }) => {
           </div>
         </div>
         <div className="lg:w-5/12 w-full flex flex-col  items-end">
-          <input
-            class="lg:w-10/12 w-full bg-gray1 text-primary rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
-            placeholder="Full name"
-            type="text"
-          />
-          <input
-            class="lg:w-10/12 w-full bg-gray1 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
-            placeholder="Company name (optional)"
-            type="text"
-          />
-          <input
-            class="lg:w-10/12 w-full bg-gray1 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
-            placeholder="Business email"
-            type="email"
-          />
-          <textarea
-            class="lg:w-10/12 w-full bg-gray1 rounded border border-gray-400 focus:outline-none h-32 focus:border-indigo-500 text-base px-4 py-2 mb-4 resize-none"
-            placeholder="Message"
-          ></textarea>
-          <div className="lg:w-10/12 w-full">
-            <button class="rounded-md bg-secondary text-white py-5 px-20 mt-6 text-base font-bold box-border w-full">
-              Send
-            </button>
-          </div>
+          <form name="contact" method="POST" data-netlify="true" netlify>
+            <input
+              name="name"
+              class="lg:w-10/12 w-full bg-gray1 text-primary rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
+              placeholder="Full name"
+              type="text"
+            />
+            <input
+              name="company"
+              class="lg:w-10/12 w-full bg-gray1 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
+              placeholder="Company name (optional)"
+              type="text"
+            />
+            <input
+              name="email"
+              class="lg:w-10/12 w-full bg-gray1 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
+              placeholder="Business email"
+              type="email"
+            />
+            <textarea
+              name="Message"
+              class="lg:w-10/12 w-full bg-gray1 rounded border border-gray-400 focus:outline-none h-32 focus:border-indigo-500 text-base px-4 py-2 mb-4 resize-none"
+              placeholder="Message"
+            ></textarea>
+            <div className="lg:w-10/12 w-full">
+              <button
+                type="submit"
+                class="rounded-md bg-secondary text-white py-5 px-20 mt-6 text-base font-bold box-border w-full"
+              >
+                Send
+              </button>
+            </div>
+          </form>
         </div>
       </div>
       <div
