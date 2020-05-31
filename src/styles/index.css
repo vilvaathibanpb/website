@@ -1,0 +1,31 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.dark {
+    --bg: #151515;
+    --gray1: #1F1F1F;
+    --section1: #1F1F1F;
+    --section2: #1F1F1F;
+    --section3: #2D2B2B;
+    --primary: #fff;
+    --secondary: #FA4C3D;
+    --btn-text: #fff;
+    --ternary: #797979;
+    --subtle: #555555;
+}
+
+.light {
+    --bg: #fff;
+    --gray1: #F9F9F9;
+    --section1: #F0FAFF;
+    --section2: #FFFAEF;
+    --section3: #F7F7F7;
+    --primary: #252C54;
+    --secondary: #FA4C3D;
+    --btn-text: #fff;
+    --ternary: #797979;
+    --subtle: #A8A8A8;
+}
