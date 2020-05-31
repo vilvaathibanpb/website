@@ -68,7 +68,7 @@ const Stack = ({ theme }) => {
   return (
     <div
       style={{ background: `url(${theme === "light" ? meshLight : meshDark})` }}
-      className="flex p-4 lg:p-20 text-primary lg:flex-row flex-col"
+      className="flex p-4 lg:p-20 text-primary lg:flex-row flex-col flex-col-reverse"
     >
       {/* Tech Stack  */}
       <div className="lg:w-8/12 w-full">
