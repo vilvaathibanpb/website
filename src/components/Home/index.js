@@ -12,7 +12,7 @@ const Home = ({theme}) => {
             <div className="w-full  xl:w-2/5 lg:w-2/5 mt-16 lg:mt-0 xl:pr-20 lg:pr-20 pl-4 pr-4  box-border">
                 <div className="text-6xl font-bold text-primary leading-none">We love️ building digital products</div>
                 <div className="text-xl text-primary mt-4">Bringing ideas to market faster and better. Got an idea?</div>
-                <Button title="Let's Collabrate" onClick={navigateToForm}></Button>
+                <Button title="Let's Collaborate" onClick={navigateToForm}></Button>
             </div>
             <div className="h-auto lg:max-h-screen lg:h-screen lg:w-3/5 w-full ">
                 <img className="lg:max-h-screen lg:h-screen w-full hidden lg:block" src={theme === "light" ? imageLight : imageDark} alt="Build awesome tech products" style={{marginTop:"-5.5rem", marginRight: "-2.5rem", objectFit: "cover"}} />
